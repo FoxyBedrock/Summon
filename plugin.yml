@@ -1,0 +1,15 @@
+name: Summon
+version: 1.0
+authors:
+  - Virvolta
+api: 5.0.0
+main: Foxy\Summon\Summon
+depend:
+  - Commando
+permissions:
+  summon.command:
+    default: op
+    description: "Allows you to summon entities."
+  unsummon.command:
+    default: op
+    description: "Allows you to remove entities by hitting them with a bone."
